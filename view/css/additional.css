@@ -1,0 +1,74 @@
+.welcome {
+    position: absolute;
+    top:0;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.list__auth-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 ;
+}
+
+.list__auth-buttons form {
+    margin: 0 auto;
+}
+
+.list__auth-buttons form button {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    background: #269;
+    border: 1px solid #269;
+    border-radius: 10px;
+    padding: 0.25rem;
+}
+
+.list__auth-buttons form button:focus,
+.list__auth-buttons form button:hover {
+    box-shadow: 5px 2px 5px rgba(136, 136, 136, 0.5);
+    color: lightblue
+}
+
+.filters{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters form {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+}
+
+.filters select {
+    width:50%;
+    font-size: 1rem;
+    border: 1px solid #000;
+}
+
+.filters form button {
+    height: 100%;
+    color: #fff;
+    font-size: 1rem;
+    background: #269;
+    border: 1px solid #269;
+    border-radius: 10px;
+    padding: 0.25rem;
+    outline: none;
+}
+
+.filters form button:focus,
+.filters form button:hover {
+    box-shadow: 5px 2px 5px rgba(136, 136, 136, 0.5);
+}
+
+.update-button {
+    border: none
+}
